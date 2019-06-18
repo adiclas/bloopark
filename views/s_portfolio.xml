@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <template id="snippet_hero_services" name="hero services snippet">
+   <section>
+    <div class="background-module background-module--large background-module--text-dark">
+      <div class="background-module__inner">
+        <div class="teaser">
+          <div class="test smartFlash inView">
+            <div class="teaser__text">
+              <h2>Our Services</h2>
+                <p>We understand the areas of conception, programming and design as a whole. Without conception (project management) programming and design are not effective, they are slowed down and cost a lot of money - that's why we attach great importance to the conception of our Odoo projects. We work with the so-called Kanban method of agile project management. This makes it possible to complete a functional section of the ERP software within a small project period and within a short time, thus providing the company with immediate business value.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foreground-module foreground-module--text-dark foreground-module--right">
+    <div class="vertical-text">
+      <div class="smartFlash inView">
+        <div class="vertical-text__label-wrap">
+        <span class="vertical-text__label">Our Services</span>
+        </div>
+        </div>
+        </div>
+        <div class="inner inner--loaded">
+        <section class="services-box">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="/theme_bloopark/static/src/img/ir_attachment.jpg"/>
+            <h3>CONCEPTION</h3>
+            <p>Our project managers discuss, analyze and optimize your requirements and business processes with you. Thereafter, all complex processes within storyboards are presented to plan the individual steps of the implementation. In the next step, the tasks are subdivided into individual tickets and prepared for programming.</p>
+          </div>
+
+          <div class="col-md-4">
+            <img src="/theme_bloopark/static/src/img/programming.jpg"/>
+            <h3>PROGRAMMING</h3>
+            <p>Based on the conception and tickets (individual tasks), we start with the implementation in Odoo. Several of our Odoo developers work on your project at the same time and implement tasks in parallel - combined, they ultimately represent one of their business processes in Odoo. Daily updates between project management, programmers and clients do not create any bottlenecks in the development and ensure a smooth flow of software development.</p>
+          </div>
+
+          <div class="col-md-4">
+            <img src="/theme_bloopark/static/src/img/design.jpg"/>
+            <h3>DESIGN</h3>
+            <p>Newly developed processes have to be appealingly displayed both in the backend and in the frontend. Our experienced designers and front-end developers make every wish possible - no matter how difficult. It's just colors, design grids or typography that sell products and services - because customers decide emotionally and can be witnessed by facts.</p>
+          </div>
+        </div>
+      </section>
+            
+    </div>
+    <span class="foreground-module__square"></span>
+  </div>        
+  </section>
+</template>
+</odoo>
