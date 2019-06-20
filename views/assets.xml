@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+ <template id="snippets_place_in_tab" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_structure']" position="inside">
+            <div class="o_panel_body">
+            <t t-snippet="theme_bloopark.snippet_address_topnav"
+            t-thumbnail="/theme_bloopark/static/src/img/ui/address.png"/>
+            <t t-snippet="theme_bloopark.snippet_hero_about"
+            t-thumbnail="/theme_bloopark/static/src/img/ui/inner_hero.png"/>
+            <t t-snippet="theme_bloopark.snippet_hero_about_2"
+            t-thumbnail="/theme_bloopark/static/src/img/ui/hero_about_2.png"/>
+            <t t-snippet="theme_bloopark.snippet_hero_inner"
+            t-thumbnail="/theme_bloopark/static/src/img/ui/inner_hero.png"/>
+            <t t-snippet="theme_bloopark.snippet_bgi_cover_fixed"
+            t-thumbnail="/theme_bloopark/static/src/img/ui/bgi_cover_fixed.png"/>
+            <t t-snippet="theme_bloopark.snippet_hero_services"
+            t-thumbnail="/theme_bloopark/static/src/img/ui/hero_services.png"/>
+            <t t-snippet="theme_bloopark.snippet_our_clients"
+            t-thumbnail="/theme_bloopark/static/src/img/ui/our_clients.png"/>
+            <t t-snippet="theme_bloopark.snippet_references"
+            t-thumbnail="/theme_bloopark/static/src/img/ui/references.png"/>
+            <t t-snippet="theme_bloopark.snippet_portfolio"
+            t-thumbnail="/theme_bloopark/static/src/img/ui/portfolio.png"/>
+            <t t-snippet="theme_bloopark.snippet_click_to_call"
+            t-thumbnail="/theme_bloopark/static/src/img/ui/click_to_call.png"/>
+            <t t-snippet="theme_bloopark.snippet_home_video"
+            t-thumbnail="/theme_bloopark/static/src/img/ui/home_video.png"/>
+            </div>
+        </xpath>
+    </template>
+ <template id="bpstyle" name="bloopark style" inherit_id="website.assets_frontend">
+    <xpath expr="link[last()]" position="after">
+        <link href="/theme_bloopark/static/src/css/owl.carousel.min.css" rel="stylesheet" />
+        <link href="/theme_bloopark/static/src/css/owl.theme.default.min.css" rel="stylesheet" />
+        <link href="/theme_bloopark/static/src/css/magnific-popup.css" rel="stylesheet" />
+        <link href="/theme_bloopark/static/src/css/style.css" rel="stylesheet" />
+        <script src="/theme_bloopark/static/src/js/owl.carousel.js"></script>
+        <script src="/theme_bloopark/static/src/js/isotope.pkgd.min.js"></script>
+        <script src="/theme_bloopark/static/src/js/jquery.magnific-popup.min.js"></script>
+        <script src="/theme_bloopark/static/src/js/script.js"></script>
+    </xpath>
+</template>
+
+</odoo>

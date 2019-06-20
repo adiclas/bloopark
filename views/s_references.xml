@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <template id="snippet_references" name="References snippet">
+   <section>
+    <div class="references foreground-module foreground-module--text-dark-white-bg foreground-module--right">
+      <div class="vertical-text">
+        <div class="smartFlash inView">
+          <div class="vertical-text__label-wrap">
+            <span class="vertical-text__label">References</span>
+          </div>
+        </div>
+      </div>
+      <div class="inner inner--loaded">
+        <section class="logo-box">
+          <div class="smartFlash inView">
+            <h2 class="teaser__text">Our References</h2>
+          </div>
+          <div class="logo-list logo-list--cols-5">
+            <div class="smartFlash inView">
+              <div class="logo-list__inner">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="logo-item__image loaded image">
+                    <img title="logo-drs" src="/theme_bloopark/static/src/img/logo.jpg" class="inlineimage"/>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="logo-item__image loaded image">
+                    <img title="logo-drs" src="/theme_bloopark/static/src/img/logo.jpg" class="inlineimage"/>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="logo-item__image loaded image">
+                    <img title="logo-drs" src="/theme_bloopark/static/src/img/logo.jpg" class="inlineimage"/>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="logo-item__image loaded image">
+                    <img title="logo-drs" src="/theme_bloopark/static/src/img/logo.jpg" class="inlineimage"/>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>       
+  </section>
+</template>
+</odoo>

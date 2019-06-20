@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <template id="snippet_home_video" name="home video snippet">
+   <section>
+        <div class="hero__arrow hero__arrow--down hero__arrow hero__arrow--down">
+            <div class="hero__arrow__wrap">
+                <div class="arrow-link arrow-link--expand arrow-link--back arrow-link--disable-text-animation" data-v-262420ea="">
+                    <span class="arrow-link__arrow" data-v-262420ea="">
+                        <span class="arrow-link__arrow__icon arrow-link__arrow__icon--original" data-v-262420ea="">
+                            <svg width="46" height="9" xmlns="http://www.w3.org/2000/svg" data-v-262420ea=""><path d="M44.102 4l-2.444-2.445.009-1.405 4.325 4.325-4.38 4.38.01-1.423L44.101 5H.002V4z" fill-rule="evenodd"></path></svg>
+                        </span>
+                        <span class="arrow-link__arrow__icon arrow-link__arrow__icon--hover" data-v-262420ea="">
+                            <svg width="46" height="9" xmlns="http://www.w3.org/2000/svg" data-v-262420ea=""><path d="M44.102 4l-2.444-2.445.009-1.405 4.325 4.325-4.38 4.38.01-1.423L44.101 5H.002V4z" fill-rule="evenodd"></path></svg>
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="hero__mediawrap"></div><!---->
+    </section>
+</template>
+</odoo>

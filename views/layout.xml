@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+
+<template id="layout_inherit_bp" inherit_id="website.layout">
+  <xpath expr="//div[@class='navbar navbar-default navbar-static-top']" position="replace">      
+	<!-- BACK TO TOP SECTION -->
+	<a href="#0" class="cd-top cd-is-visible cd-fade-out">Top</a>
+
+	<!-- HEADER -->
+    <div class="header header-1">
+
+		<!-- NAVBAR SECTION -->
+		<div class="navbar-main">
+			<div class="container">
+			    <nav id="navbar-example" class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">
+              <img src="/logo.png" t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			        <span class="navbar-toggler-icon"></span>
+			      </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+			            <ul class="navbar-nav ml-auto">
+                         <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                             <t t-call="website.submenu"/>
+                         </t>
+                  </ul>
+                  <div class="sosmed-icon no-bg-hover float-right d-inline-flex">
+                     <a t-att-href="website.social_facebook" t-if="website.social_facebook">
+                        <i class="fa fa-facebook-square"/>
+                      </a>
+                      <a t-att-href="website.social_twitter" t-if="website.social_twitter">
+                        <i class="fa fa-twitter-square"/>
+                      </a>
+                      <a t-att-href="website.social_youtube" t-if="website.social_youtube">
+                        <i class="fa fa-youtube-square"/>
+                      </a>
+                      <a t-att-href="website.social_linkedin" t-if="website.social_linkedin">
+                        <i class="fa fa-linkedin-square"/>
+                      </a> 
+                  </div>
+                  </div>
+                 </nav>
+             </div>
+         </div>
+      </div>
+    </xpath>
+</template>
+
+
+<template id="footer_default_inherit_bp" inherit_id="website.footer_default" customize_show="True" name="Automatic Footer inherit BP">
+    <xpath expr="//div[@id='footer']" position="replace">
+      <div class="footer">
+		<div class="content-wrap">
+			<div class="container">
+				
+				<div class="row">
+					<div class="col-sm-12 col-md-4 col-lg-6">
+						<div class="footer-item">
+							<img src="/logo.png" alt="logo bottom" class="logo-bottom"/>
+							<div class="spacer-20"></div>
+							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+							<div class="spacer-20"></div>
+							<div class="sosmed-icon bg-round d-inline-flex">
+							  <a t-att-href="website.social_facebook" t-if="website.social_facebook">
+	                <i class="fa fa-facebook-square"/>
+	              </a>
+                <a t-att-href="website.social_twitter" t-if="website.social_twitter">
+	                <i class="fa fa-twitter-square"/>
+	              </a>
+                <a t-att-href="website.social_youtube" t-if="website.social_youtube">
+	                <i class="fa fa-youtube-square"/>
+	              </a>
+                <a t-att-href="website.social_linkedin" t-if="website.social_linkedin">
+	                <i class="fa fa-linkedin-square"/>
+	              </a> 
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-12 col-md-4 col-lg-3">
+						<div class="footer-item">
+							<div class="footer-title">
+								Contact Info
+							</div>
+							<p>dictum diam. Mauris eu risus vitae massa</p>
+							<ul class="list-info">
+								<li>
+									<div class="info-icon text-primary">
+										<span class="fa fa-map-marker"></span>
+									</div>
+									<div class="info-text">Nulla elit nunc, semper a blandit at, commodo sit amet purus.</div> 
+								</li>
+								<li>
+									<div class="info-icon text-primary">
+										<span class="fa fa-phone"></span>
+									</div>
+									<div class="info-text"><span t-field="res_company.phone"></span></div>
+								</li>
+								<li>
+									<div class="info-icon text-primary">
+										<span class="fa fa-envelope"></span>
+									</div>
+									<div class="info-text"><span t-field="res_company.email"></span></div>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-sm-12 col-md-4 col-lg-3">
+						<div class="footer-item">
+							<div class="footer-title">
+								Userful Link
+							</div>
+							<p>Sed egestas efficitur nisi. Pellentesque ante ipsum, pretium condimentum scelerisque sit amet</p>
+							<ul class="list">
+								<li><a href="page-about.html" title="About us">About</a></li>
+								<li><a href="page-team-member.html" title="Couses">Professional Tean</a></li>
+								<li><a href="page-services.html" title="Services">Services</a></li>
+								<li><a href="page-career.html" title="Careers">Careers</a></li>
+								<li><a href="contact.html" title="Contact">Contact</a></li>
+							</ul>
+
+						</div>
+					</div>					
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="fcopy">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-12">
+						<p class="ftex">&amp;copy; 2019 <span class="text-primary"><span t-field="res_company.name" itemprop="name">res_company.name</span></span>. All Rights Reserved. Designed By <span class="text-primary">Adiclas</span></p> 
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+    </xpath>
+
+</template>
+
+</odoo>

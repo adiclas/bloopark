@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <template id="snippet_hero_inner" name="hero inner snippet">
+   <section>
+        
+    <!-- BANNER -->
+	<div class="section banner-full bgi-cover-center" data-background="/theme_bloopark/static/src/img/home01.jpg">
+		<div class="container h-100 d-flex align-items-center">
+			
+        	<div class="wrap-caption text-white">
+                <h1 class="caption-heading">Start Your Business with Bloopark.</h1>
+                <p class="">Awesome template without any coding or design skills!</p>
+                <a href="#" class="btn btn-primary">Get Started</a>
+            </div>  
+				
+        </div>
+    </div>
+  </section>
+</template>
+</odoo>

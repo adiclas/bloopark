@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <template id="snippet_hero_about_2" name="hero about 2 snippet">
+   <section>
+	<div class="section bg-gray-light">
+		<div class="content-wrap pt-0 pb-0">
+			<div class="sideleft-img bgi-cover-center" data-background="/theme_bloopark/static/src/img/ui/whoweare.jpg">
+				<img src="/theme_bloopark/static/src/img/ui/whoweare.jpg" alt="" class="img-fluid"/>
+			</div>
+			<div class="container">
+				<div class="row align-items-center">
+
+					<div class="col-sm-12 col-md-12 col-lg-6 offset-lg-6">
+						<div class="spacer-content"></div>
+						<h2 class="section-heading text-primary no-after mb-4">
+							A theme that fits to your needs
+						</h2>
+						<p class="subheading mb-4"><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em></p>
+						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+						<div class="spacer-30"></div>
+						<a href="#" class="btn btn-primary">Learn More</a>
+						<div class="spacer-content"></div>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</div>
+  </section>
+</template>
+</odoo>

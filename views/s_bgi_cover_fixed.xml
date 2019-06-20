@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <template id="snippet_bgi_cover_fixed" name="bgi cover fixed snippet">
+   <!-- CTA -->
+   <section>
+	<div class="section bgi-cover-fixed" data-background="/theme_bloopark/static/src/img/bg2.jpg">
+		<div class="content-wrap">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-sm-12 col-md-12">
+						<div class="cta-quote">
+							<h1 class="title">"If you're already a front-end developer, well, pretend you're also wearing a pirate hat."</h1>
+							<footer> Ethan Marcotte, Responsive Web Design</footer>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    </section>
+</template>
+</odoo>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="snippet_address_topnav" name="Address Top nav snippet">
+   <section class="row snippet_address_topnav">
+        <div class="col-md-6">
+          <span>E: <a href="mailto:mail@bloopark.de">mail@bloopark.de</a></span>
+          <span>T: <a href="tel:0391/5630690">0391/5630690</a></span>
+        </div>
+        <div class="col-md-6">
+          <span>Beethovenstr, 39106</span>
+          <span> Magdeburg Germany</span>
+        </div>
+  </section>
+</template>
+</odoo>

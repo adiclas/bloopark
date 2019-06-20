@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<template id="snippet_click_to_call" name="click to call snippet">
+   <section class="snippet_click_to_call">
+        <div class="section cta bg-gradient-primary">
+          <div class="content-wrap py-5">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-sm-12 col-md-12">
+                  <div class="cta-1">
+                            <div class="body-text text-white mb-3">
+                              <h2 class="my-1">Interested in Hiring Us?</h2>
+                              <p class="uk18 mb-0">We provide high standar clean website for your business solutions</p>
+                            </div>
+                            <div class="body-action mt-4">
+                              <a href="#" class="btn btn-light">Let's Talk Now</a>
+                            </div>
+                        </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+</template>
+</odoo>

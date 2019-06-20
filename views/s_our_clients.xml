@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <template id="snippet_our_clients" name="Our Clients snippet">
+   <!-- CTA -->
+   <section>
+	<!-- OUR CLIENTS -->
+	<div class="section bgi-cover-center" data-background="/theme_bloopark/static/src/img/client_bg.jpg">
+		<div class="content-wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-12">
+						<h2 class="section-heading text-center text-primary no-after mb-5">
+							Our Clients
+						</h2>
+						<p class="subheading text-center text-white">We provide high standar clean website for your business solutions</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6 col-sm-4 col-md-4 col-lg-2">
+						<div class="client-img">
+							<a href="#">
+								<img src="/theme_bloopark/static/src/img/logos/client.png" alt="" class="img-fluid"/>
+							</a>
+						</div>
+					</div>
+					<div class="col-6 col-sm-4 col-md-4 col-lg-2">
+						<div class="client-img">
+							<a href="#">
+								<img src="/theme_bloopark/static/src/img/logos/client.png" alt="" class="img-fluid"/>
+							</a>
+						</div>
+					</div>
+					<div class="col-6 col-sm-4 col-md-4 col-lg-2">
+						<div class="client-img">
+							<a href="#">
+								<img src="/theme_bloopark/static/src/img/logos/client.png" alt="" class="img-fluid"/>
+							</a>
+						</div>
+					</div>
+					<div class="col-6 col-sm-4 col-md-4 col-lg-2">
+						<div class="client-img">
+							<a href="#">
+								<img src="/theme_bloopark/static/src/img/logos/client.png" alt="" class="img-fluid"/>
+							</a>
+						</div>
+					</div>
+					<div class="col-6 col-sm-4 col-md-4 col-lg-2">
+						<div class="client-img">
+							<a href="#">
+								<img src="/theme_bloopark/static/src/img/logos/client.png" alt="" class="img-fluid"/>
+							</a>
+						</div>
+					</div>
+					<div class="col-6 col-sm-4 col-md-4 col-lg-2">
+						<div class="client-img">
+							<a href="#">
+								<img src="/theme_bloopark/static/src/img/logos/client.png" alt="" class="img-fluid"/>
+							</a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+    </section>
+</template>
+</odoo>
